@@ -1,0 +1,17 @@
+PODS:
+  - JLQRCode (0.1.0)
+
+DEPENDENCIES:
+  - JLQRCode (from `../`)
+
+EXTERNAL SOURCES:
+  JLQRCode:
+    :path: ../
+    :podsepc: ../JLQRCode.podspec
+
+SPEC CHECKSUMS:
+  JLQRCode: 64333bf993e696ba2e317705e0c716f45a6b05b2
+
+PODFILE CHECKSUM: 70754cf65c3688bcd70979bcef6eb23f345022af
+
+COCOAPODS: 1.0.1

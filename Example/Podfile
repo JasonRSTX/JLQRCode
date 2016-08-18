@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JLQRCode_Example' do
+  pod 'JLQRCode', :path => '../', :podsepc => '../JLQRCode.podspec'
+
+  target 'JLQRCode_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
