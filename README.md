@@ -11,8 +11,6 @@ A simple QRCode detector and generator.
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
-
 ## Installation
 
 JLQRCode is available through [CocoaPods](http://cocoapods.org). To install
