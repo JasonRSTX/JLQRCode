@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/JLQRCode.svg?style=flat)](http://cocoapods.org/pods/JLQRCode)
 [![Platform](https://img.shields.io/cocoapods/p/JLQRCode.svg?style=flat)](http://cocoapods.org/pods/JLQRCode)
 
+A simple QRCode detector and generator.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
