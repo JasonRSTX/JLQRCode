@@ -1,0 +1,15 @@
+/* 
+  JLQRCodeLocalizable.strings
+  JLQRCode
+
+  Created by Jason Li on 8/18/16.
+  Copyright © 2016 zrxd. All rights reserved.
+*/
+
+"Cancel" = "Cancel";
+
+"Album" = "Album";
+
+"No Found QRCode" = "No Found QRCode";
+
+"Tap And Continue" = "Tap And Continue";
