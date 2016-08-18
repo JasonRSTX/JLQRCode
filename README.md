@@ -22,7 +22,7 @@ pod "JLQRCode"
 
 ## Author
 
-jason, rstx_reg@aliyun.com
+JasonLi, rstx_reg@aliyun.com
 
 ## License
 
