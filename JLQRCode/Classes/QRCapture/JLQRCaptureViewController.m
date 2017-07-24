@@ -110,6 +110,12 @@ NSArray * JLFeaturesQRCode(UIImage *image) {
     
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    if (self.labNote.hidden) [self.scanVC startRunning];
+    
+}
+
 #pragma mark - Getter And Setter
 - (JLQRCodeScanViewController *)scanVC {
     if (_scanVC) return _scanVC;
@@ -209,6 +215,7 @@ NSArray * JLFeaturesQRCode(UIImage *image) {
         }];
     } else {
         [self.labNote setHidden:NO];
+        [self.scanVC stopRunning];
     }
 }
 
