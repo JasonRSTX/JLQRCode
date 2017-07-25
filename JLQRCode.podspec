@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'JLQRCode'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Simple QRCode detector and generator.'
   s.homepage         = 'https://github.com/JasonRSTX/JLQRCode'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -13,6 +13,8 @@ Pod::Spec.new do |s|
 
   s.source_files = 'JLQRCode/Classes/JLQRCode.h'
   s.public_header_files = 'JLQRCode/Classes/JLQRCode.h'
+  # s.source_files = 'JLQRCode/Classes/*.*'
+  # s.public_header_files = 'JLQRCode/Classes/*.h'
   
   s.resource_bundles = {
     'JLQRCodeAssets' => ['JLQRCode/Assets/*.*']
@@ -31,3 +33,4 @@ Pod::Spec.new do |s|
   end
 
 end
+
