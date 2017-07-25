@@ -13,8 +13,8 @@ Pod::Spec.new do |s|
 
   s.source_files = 'JLQRCode/Classes/JLQRCode.h'
   s.public_header_files = 'JLQRCode/Classes/JLQRCode.h'
-  # s.source_files = 'JLQRCode/Classes/*.*'
-  # s.public_header_files = 'JLQRCode/Classes/*.h'
+  # s.source_files = 'JLQRCode/Classes/**/*.*'
+  # s.public_header_files = 'JLQRCode/Classes/**/*.h'
   
   s.resource_bundles = {
     'JLQRCodeAssets' => ['JLQRCode/Assets/*.*']
