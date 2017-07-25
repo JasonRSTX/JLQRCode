@@ -1,6 +1,0 @@
-framework module JLQRCode {
-  umbrella header "JLQRCode-umbrella.h"
-
-  export *
-  module * { export * }
-}
